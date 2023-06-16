@@ -1,0 +1,214 @@
+info: Connected to the database. {"timestamp":"2023-06-10T04:24:32.592Z"}
+info: Connected to the database. {"timestamp":"2023-06-10T04:26:14.031Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-10T04:27:06.452Z"}
+info: Connected to the database. {"timestamp":"2023-06-10T04:27:06.568Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-10T04:27:19.913Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-10T04:28:33.030Z"}
+info: Connected to the database. {"timestamp":"2023-06-10T04:28:33.129Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at MySQLQueryInterface.select (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-10T04:28:56.838Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-10T04:30:03.889Z"}
+info: Connected to the database. {"timestamp":"2023-06-10T04:30:04.065Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at MySQLQueryInterface.select (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-10T04:30:18.379Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-10T04:31:08.115Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at MySQLQueryInterface.select (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-10T04:31:19.966Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-10T04:33:11.319Z"}
+info: Connected to the database. {"timestamp":"2023-06-10T04:33:11.739Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at MySQLQueryInterface.select (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-10T04:33:15.439Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-10T04:34:11.532Z"}
+info: Connected to the database. {"timestamp":"2023-06-10T04:34:11.662Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at MySQLQueryInterface.select (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-10T04:34:22.424Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-10T04:35:33.497Z"}
+info: Connected to the database. {"timestamp":"2023-06-10T04:35:33.610Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-10T04:35:48.062Z"}
+info: Connected to the database. {"timestamp":"2023-06-10T04:35:48.176Z"}
+error: 
+    status - 500 
+    message - ReferenceError: req is not defined
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\services\/user.service.js:12:15)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newUser (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\services\/user.service.js:11:21)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\controllers\/user.controller.js:65:36)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at newUser (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\controllers\/user.controller.js:63:21)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\validators\/user.validator.js:15:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-10T04:35:50.343Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-10T04:36:11.177Z"}
+info: Connected to the database. {"timestamp":"2023-06-10T04:36:11.287Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at MySQLQueryInterface.select (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\model.js:1998:12) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-10T04:36:13.773Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-10T04:37:13.962Z"}
+info: Connected to the database. {"timestamp":"2023-06-10T04:37:14.076Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at MySQLQueryInterface.insert (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at user.save (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\model.js:4153:35)
+    at Function.create (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-10T04:37:36.177Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-10T04:40:18.330Z"}
+info: Connected to the database. {"timestamp":"2023-06-10T04:40:18.423Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-10T04:40:23.728Z"}
+info: Connected to the database. {"timestamp":"2023-06-10T04:40:23.830Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-10T05:09:25.807Z"}
+info: Connected to the database. {"timestamp":"2023-06-10T05:09:26.055Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-10T05:15:19.084Z"}
+info: Connected to the database. {"timestamp":"2023-06-10T05:15:19.192Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-10T05:18:37.808Z"}
+info: Connected to the database. {"timestamp":"2023-06-10T05:18:37.945Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-10T05:22:16.630Z"}
+info: Connected to the database. {"timestamp":"2023-06-10T05:22:16.817Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-10T05:27:54.041Z"}
+info: Connected to the database. {"timestamp":"2023-06-10T05:27:54.224Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\services\/user.service.js:31:10)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-10T05:27:56.185Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-10T05:28:39.859Z"}
+info: Connected to the database. {"timestamp":"2023-06-10T05:28:39.999Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-10T05:29:06.623Z"}
+info: Connected to the database. {"timestamp":"2023-06-10T05:29:06.727Z"}

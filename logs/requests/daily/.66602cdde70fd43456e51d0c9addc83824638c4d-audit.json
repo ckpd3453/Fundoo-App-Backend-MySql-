@@ -1,0 +1,55 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "logs\\requests\\daily\\.66602cdde70fd43456e51d0c9addc83824638c4d-audit.json",
+    "files": [
+        {
+            "date": 1686148476048,
+            "name": "logs\\requests\\daily\\2023-06-07.log",
+            "hash": "d90458a1189078aa7ceb529c36f783408201b426215bc56cd1631ec0512a37d1"
+        },
+        {
+            "date": 1686196829234,
+            "name": "logs\\requests\\daily\\2023-06-08.log",
+            "hash": "56aa83bd63632aad390d26cb2baa88f8fd7999dafae78ae94831602e58966d93"
+        },
+        {
+            "date": 1686280069477,
+            "name": "logs\\requests\\daily\\2023-06-09.log",
+            "hash": "af141a07d8194f58057e7eedc233771516883d5a51dc56d8bf8716da8ebf497b"
+        },
+        {
+            "date": 1686371066782,
+            "name": "logs\\requests\\daily\\2023-06-10.log",
+            "hash": "f5f7240b5a7bc65816d267f1334e8a95561644a5a5661217baca1e4ffa98a1f2"
+        },
+        {
+            "date": 1686457474691,
+            "name": "logs\\requests\\daily\\2023-06-11.log",
+            "hash": "bda307d5e924e5e83868208aa26dcc1ab2a603b5a19d1ca6fc1a7fba72a5c447"
+        },
+        {
+            "date": 1686538555877,
+            "name": "logs\\requests\\daily\\2023-06-12.log",
+            "hash": "85abc15dc086d414fa69585eb9d114dc69ed19d3ff15a1a301f5d4eb4b94098b"
+        },
+        {
+            "date": 1686627901257,
+            "name": "logs\\requests\\daily\\2023-06-13.log",
+            "hash": "1ab75de45337cc32d70e4095462d02bbd3f2e6a97db1d93449326d6cae994837"
+        },
+        {
+            "date": 1686714105722,
+            "name": "logs\\requests\\daily\\2023-06-14.log",
+            "hash": "5e304df6c913dbdf68d91fcbfbd9d5659d0f6e96757d87b583a4b9363c857912"
+        },
+        {
+            "date": 1686798441074,
+            "name": "logs\\requests\\daily\\2023-06-15.log",
+            "hash": "cb4d15fc56e558ca2a8768d08cf9bd2a815997343f51b5d4a689011c66fd82fb"
+        }
+    ],
+    "hashType": "sha256"
+}

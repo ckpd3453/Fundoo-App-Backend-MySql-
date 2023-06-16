@@ -1,0 +1,128 @@
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T04:24:39.813Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T04:24:40.492Z"}
+error: 
+    status - 500 
+    message - SequelizeValidationError: string violation: password cannot be an array or an object
+    at InstanceValidator._validate (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\instance-validator.js:78:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at InstanceValidator._validateAndRunHooks (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\instance-validator.js:111:7)
+    at InstanceValidator.validate (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\instance-validator.js:93:12)
+    at user.save (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\model.js:4076:7)
+    at Function.create (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-11T04:38:17.078Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T04:41:20.829Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T04:56:50.293Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T04:56:50.386Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" should contain at least 1 special character 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-11T04:57:14.371Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" should contain at least 1 uppercase character 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-11T04:57:23.332Z"}
+error: 
+    status - 500 
+    message - SequelizeValidationError: string violation: password cannot be an array or an object
+    at InstanceValidator._validate (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\instance-validator.js:78:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at InstanceValidator._validateAndRunHooks (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\instance-validator.js:111:7)
+    at InstanceValidator.validate (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\instance-validator.js:93:12)
+    at user.save (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\model.js:4076:7)
+    at Function.create (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-11T04:57:30.541Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T04:58:20.354Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T04:58:20.448Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T05:12:08.891Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T05:12:09.063Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T05:12:52.997Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T05:12:53.183Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T05:13:51.210Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T05:13:51.321Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T06:00:13.173Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T06:00:13.347Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T06:02:08.621Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T06:02:08.726Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T06:02:59.026Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T06:02:59.176Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T11:41:11.751Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T11:41:11.984Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T11:42:01.033Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T11:42:01.146Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T11:43:59.178Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T11:43:59.305Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T11:44:48.491Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T11:44:48.633Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T11:45:24.077Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T11:45:24.195Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T11:46:38.427Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T11:46:38.568Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T11:47:08.845Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T11:47:08.962Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T11:48:40.670Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T11:48:40.781Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T11:49:05.032Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T11:49:05.142Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T11:49:31.808Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T11:49:31.899Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T11:49:48.485Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T11:49:48.605Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\jsonwebtoken\sign.js:107:20)
+    at jwtToken (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/jwt.middleware.js:4:19)
+    at _callee3$ (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\services\/user.service.js:50:29)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-11T11:51:28.591Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T11:53:36.009Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T11:53:36.115Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T11:54:32.303Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T11:54:32.445Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T11:54:41.636Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T11:54:41.724Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T16:54:37.176Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T16:54:37.256Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T16:54:54.636Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T16:54:54.730Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T16:57:29.154Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T16:57:29.244Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T16:58:09.607Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T16:58:09.718Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T17:01:07.609Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T17:01:07.711Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T17:06:09.775Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T17:06:09.865Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T17:07:04.138Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T17:07:04.225Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T17:08:59.378Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T17:08:59.474Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T17:12:07.034Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T17:12:07.137Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T17:13:15.380Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T17:13:15.579Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T17:13:54.298Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T17:13:54.401Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T17:14:58.195Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T17:14:58.291Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-11T17:21:35.568Z"}
+info: Connected to the database. {"timestamp":"2023-06-11T17:21:35.668Z"}

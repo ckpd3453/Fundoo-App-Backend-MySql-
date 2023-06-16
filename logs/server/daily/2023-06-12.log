@@ -1,0 +1,1022 @@
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T02:55:56.936Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T02:55:57.065Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T02:59:49.391Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T02:59:49.511Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T03:01:09.241Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T03:01:09.361Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T03:27:37.863Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T03:27:38.024Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T03:27:50.413Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T03:27:50.552Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T03:29:18.569Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T03:29:18.716Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T06:28:00.497Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T06:28:01.996Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T06:29:45.037Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T06:29:45.177Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/reset 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-06-12T06:32:50.818Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-12T06:34:18.807Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-12T06:35:24.224Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-12T06:35:33.611Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T06:36:18.410Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T06:36:18.593Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:23:32)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-12T06:36:21.018Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T06:36:57.564Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T06:36:57.676Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:23:32)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-12T06:36:59.679Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T06:40:07.685Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T06:40:07.785Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:23:32)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-12T06:40:20.606Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T06:40:52.680Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T06:40:52.772Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:23:32)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-12T06:41:25.837Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:23:32)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-12T06:42:16.442Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:23:32)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-12T06:42:41.228Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T06:43:31.997Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T06:43:32.151Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:24:32)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-12T06:44:01.938Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T06:45:02.939Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T06:45:03.054Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:24:32)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-12T06:45:04.919Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T06:48:30.170Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T06:48:30.287Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:24:32)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-12T06:48:32.057Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T06:51:39.985Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T06:51:40.090Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:24:26)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-12T06:51:41.907Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T06:53:50.636Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T06:53:50.755Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:24:22)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-12T06:53:52.674Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T09:34:51.499Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T09:34:51.668Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T09:45:02.426Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T09:45:02.537Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T09:45:24.690Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T09:45:24.833Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T09:48:15.004Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T09:48:15.143Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T09:48:45.176Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T09:48:45.283Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T09:53:04.486Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T09:53:04.605Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T09:53:22.439Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T09:53:22.546Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T09:53:53.910Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T09:53:54.000Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T09:55:03.618Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T09:55:03.715Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T09:55:18.863Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T09:55:18.949Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T09:55:29.711Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T09:55:29.829Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T10:02:28.383Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T10:02:28.531Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T10:06:40.054Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T10:06:40.167Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T10:52:04.125Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T10:52:04.245Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T10:53:57.197Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T10:53:57.343Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T10:54:50.651Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T10:54:50.868Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T10:55:25.628Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T10:56:05.625Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T10:57:11.180Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T10:58:40.994Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T10:58:41.152Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee$ (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\services\/note.service.js:10:13)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.create (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\services\/note.service.js:5:20)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\controllers\/note.controller.js:5:36)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at create (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\controllers\/note.controller.js:3:20)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\express\lib\router\index.js:328:13) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-12T11:01:21.652Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T11:02:34.658Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T11:02:34.743Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T11:03:38.167Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T11:03:38.292Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T11:03:57.961Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T11:03:58.071Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T11:06:09.956Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T11:06:10.051Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T11:12:21.765Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T11:12:21.898Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T11:13:56.913Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T11:13:56.995Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T11:18:24.669Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T11:18:24.785Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T11:20:28.021Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T11:20:28.132Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T11:21:23.542Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T11:21:23.687Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T11:21:45.706Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T11:21:45.908Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T11:36:56.589Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T11:36:56.716Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T11:37:25.959Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T11:37:26.087Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T11:40:23.924Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T11:40:24.181Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee$ (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\controllers\/note.controller.js:6:17)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-12T11:40:25.900Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T11:41:11.265Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T11:41:11.406Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T12:14:13.861Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T12:14:14.015Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T12:14:44.716Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T12:14:44.831Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'code')
+    at _callee$ (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\src\controllers\/note.controller.js:6:21)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-06-12T12:14:47.009Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T12:15:23.868Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T12:15:23.987Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T15:01:53.362Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T15:01:53.561Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T15:02:35.835Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T15:02:35.917Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T15:08:18.060Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T15:08:18.173Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T15:13:47.214Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T15:13:47.304Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T15:14:20.951Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T15:14:21.033Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-06-12T15:17:24.057Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at MySQLQueryInterface.insert (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at note.save (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\model.js:4153:35)
+    at Function.create (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-12T15:17:44.156Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\dialects\mysql\query.js:46:25)
+    at C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at MySQLQueryInterface.insert (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at note.save (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\model.js:4153:35)
+    at Function.create (C:\Users\SHREEKANT\Desktop\MySql_DB\practice_mysql\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-06-12T15:18:05.602Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T15:19:10.889Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T15:19:10.971Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T15:26:38.782Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T15:26:38.908Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T15:26:47.141Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T15:26:47.223Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T15:27:33.249Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T15:27:33.346Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T15:28:13.471Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T15:28:13.556Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T16:56:34.089Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T16:56:34.693Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T17:25:55.740Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T17:25:55.829Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T17:26:14.818Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T17:26:14.961Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T17:27:11.661Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T17:27:11.774Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T17:29:14.414Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T17:29:14.509Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-06-12T17:31:43.150Z"}
+info: Connected to the database. {"timestamp":"2023-06-12T17:31:43.255Z"}
